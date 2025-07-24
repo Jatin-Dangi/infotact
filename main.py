@@ -1,7 +1,14 @@
+# File Organizer
+# Author: Jatin Dangi   
+# Date: 24/07/2025
+# Description: A simple file organizer application that helps you categorize and organize your files by type.
+
+
 import os
 import shutil
 import tkinter as tk
 from tkinter import filedialog, messagebox, scrolledtext
+
 
 # File type categories
 FILE_CATEGORIES = {
